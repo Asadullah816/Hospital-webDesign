@@ -1,0 +1,1148 @@
+.for-small {
+    display: none;
+}
+
+* {
+    /* border: 1px solid red; */
+}
+
+.sm-right-section {
+    display: none;
+}
+
+.sm-left-section {
+    display: none !important;
+}
+
+
+
+
+@media(max-width:1441px) {
+    .meet-dr-content {
+        width: 640px;
+        top: 10%;
+        right: 65px;
+    }
+
+
+
+    .sec-right-card {
+        width: 890px;
+        left: 30px;
+    }
+
+    .sec-left-card {
+        width: 890px;
+        right: 30px;
+    }
+
+    .team .pic img {
+        width: 393px;
+    }
+
+    .team-border {
+        height: 120px;
+        margin-left: 3px;
+    }
+
+    .banner2-content h2 {
+        font-size: 48px;
+    }
+
+    .f-icon {
+        width: 65px;
+    }
+
+    .nav-item {
+        padding: 25px 0px 0px 15px;
+    }
+}
+
+@media (max-width: 1280px) and (min-width: 1025px) {
+    .nav-item {
+
+        padding: 25px 0px 0px 0px;
+    }
+
+    .percent {
+        padding: 60px;
+    }
+
+    .team .pic img {
+        width: 337px;
+    }
+
+    .counter-section {
+        padding-top: 100px;
+    }
+
+    .counter-btn {
+        margin-bottom: 100px;
+    }
+}
+
+/* ========================= 1024 ===================== */
+.navbar-toggler:focus {
+    box-shadow: none !important;
+    border: none;
+}
+
+.navbar-toggler {
+    box-shadow: none !important;
+    border: none;
+}
+
+@media(max-width:1024px) {
+    p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .for-large-nav {
+        display: none;
+    }
+
+    .for-small {
+        display: block;
+    }
+
+    .navbar {
+        height: 10% !important;
+    }
+
+    .video-content h2 em {
+        font-size: 45px;
+    }
+
+    .video-content h2 {
+        font-size: 40px;
+    }
+
+    .video-end p {
+        font-size: 20px;
+    }
+
+    .percent {
+        color: #22AFEC;
+        text-align: center;
+        font-size: 80px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;
+        letter-spacing: 2.8px;
+        padding: 20px 60px;
+    }
+
+    .meet-dr-content h2 {
+        font-size: 38px;
+    }
+
+    .meet-dr-content h2 em {
+        font-size: 38px;
+    }
+
+    .meet-dr-content p {
+        font-size: 16px;
+        padding: 15px 0px;
+    }
+
+    .meet-dr-content {
+        width: 550px;
+        top: 3%;
+        right: 25px;
+    }
+
+    .meet-dr-content ul li {
+        font-size: 16px;
+        padding: 8px 0px;
+    }
+
+
+    .container-wrapper {
+        width: 940px;
+    }
+
+    .rev-img {
+        width: 170px !important;
+    }
+
+    .counter-section {
+        padding-top: 160px;
+    }
+
+    .fv-para p {
+        padding: 30px 0px;
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .team .pic img {
+        width: 276px;
+    }
+
+    .team .title {
+        font-size: 16px;
+    }
+
+    .team-border {
+        height: 110px;
+    }
+
+    /* =================== BANNER 2 ============*/
+    .banner2 {
+        background-size: cover;
+    }
+
+    .eye2 {
+        padding: 10px 0px;
+    }
+
+    .eye2 img {
+        width: 85px;
+    }
+
+    .banner2-content h2 {
+        font-size: 28px;
+        padding: 14px 0px;
+    }
+
+    .banner2-content button {
+        padding: 8px 15px;
+        font-size: 16px;
+    }
+
+    .banner {
+        background-size: cover;
+    }
+
+    .eye {
+        padding: 10px 0px;
+        padding-top: 20px;
+    }
+
+    .eye img {
+        width: 85px;
+    }
+
+    .banner-content h2 {
+        font-size: 28px;
+        padding: 14px 0px;
+    }
+
+    .banner-content button {
+        padding: 8px 15px;
+        font-size: 16px;
+    }
+
+    /* ================ RIGHT CARD ============   */
+    .sec-right-card {
+        /* width: 650px;
+        height: auto;
+        top: 88px; */
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        background: linear-gradient(180deg, #2A3244 0%, #22afec8f 85.66%);
+    }
+
+    .sec-right-card h1 {
+        font-size: 48px;
+    }
+
+    .sec-right-card h1 em {
+        font-size: 48px;
+    }
+
+    .sec-right-card h6 {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .sec-right-card h6 em {
+        font-size: 20px;
+    }
+
+    .sec-right-card p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .sec-right-card h4 {
+        font-size: 20px;
+        padding: 20px 0px;
+    }
+
+    .sec-right-btn {
+        margin-top: 200px;
+    }
+
+    /* ==================== LEFT CARD ======================== */
+    .sec-left-card {
+        /* width: 650px;
+        height: auto;
+        top: 88px; */
+        width: 100%;
+        height: 100%;
+        top: 0;
+        right: 0;
+        background: linear-gradient(180deg, #2A3244 0%, #22afec8f 85.66%);
+    }
+
+    .sec-left-img {
+        width: 100%;
+    }
+
+    .sec-left-img img {
+        width: 100% !important;
+    }
+
+    .sec-left-card h1 {
+        font-size: 48px;
+    }
+
+    .sec-left-card h1 em {
+        font-size: 48px;
+    }
+
+    .sec-left-card h6 {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .sec-left-card h6 em {
+        font-size: 20px;
+    }
+
+    .sec-left-card p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .sec-left-card h4 {
+        font-size: 20px;
+        padding: 20px 0px;
+    }
+
+    .sec-left-logos {
+        padding-top: 200px !important;
+    }
+
+    .navbar-nav .dropdown-menu {
+        border: none;
+    }
+}
+
+/* ======================= 768 =========================== */
+@media (max-width:768px) {
+    .counter-text p {
+        padding: 0px 30px;
+        font-size: 18px;
+    }
+
+    .percent {
+        font-size: 65px;
+        padding: 20px 39px;
+    }
+
+    .rev-img {
+        width: 110px !important;
+    }
+
+    .container-wrapper {
+        width: 545px;
+    }
+
+    .why-section {
+        background-size: 100%;
+        height: 45.5vh;
+    }
+
+    /* ========== */
+    .position-relative1 video {
+        height: 400px;
+    }
+
+    .video-end p {
+        font-size: 15px;
+    }
+
+    .why-content {
+        padding: 70px 25px;
+    }
+
+    .why-content h2 {
+        font-size: 50px;
+    }
+
+    .why-content h2 em {
+        font-size: 50px;
+    }
+
+    .why-li {
+        font-size: 14px;
+    }
+
+    .why-btn {
+        font-size: 16px;
+        margin-top: 10px;
+    }
+
+    .sec-right-card h1 {
+        font-size: 38px;
+    }
+
+    .sec-right-card h1 em {
+        font-size: 38px;
+    }
+
+    .sec-right-card h6 {
+        font-size: 14px;
+        padding: 20px 0px;
+    }
+
+    .sec-right-card p {
+        font-size: 14px;
+    }
+
+    .sec-right-card h4 {
+        padding: 10px 0px;
+    }
+
+    .sec-right-btn {
+        font-size: 18px;
+        margin-top: 20px;
+    }
+
+
+    /* width: 610px;
+        top: 40px;
+        left: 20px;
+        background: linear-gradient(180deg, #2A3244 0%, #22afecb5 85.66%); */
+    .sec-left-card {
+        /* width: 650px;
+            height: auto;
+            top: 88px; */
+        width: 100%;
+        height: 100%;
+        top: 0;
+        right: 0;
+        background: linear-gradient(180deg, #2A3244 0%, #22afec8f 85.66%);
+    }
+
+    .vid-container {
+        margin-top: 100px;
+    }
+
+    .sec-left-img {
+        width: 100%;
+    }
+
+    .sec-left-img img {
+        width: 100% !important;
+    }
+
+
+    .sec-left-card h1 {
+        font-size: 38px;
+    }
+
+    .sec-left-card h1 em {
+        font-size: 38px;
+    }
+
+    .sec-left-card h6 {
+        font-size: 14px;
+        padding: 20px 0px;
+    }
+
+    .sec-left-card p {
+        font-size: 14px;
+    }
+
+    .sec-left-card h4 {
+        padding: 10px 0px;
+    }
+
+    .sec-left-btn {
+        font-size: 18px;
+        margin-top: 20px;
+    }
+
+    .sec-left-card {
+        /* width: 650px;
+        height: auto;
+        top: 88px; */
+        width: 100%;
+        height: 100%;
+        top: 0;
+        right: 0;
+        background: linear-gradient(180deg, #2A3244 0%, #22afec8f 85.66%);
+    }
+
+    .sec-left-img {
+        width: 100%;
+    }
+
+    .sec-left-img img {
+        width: 100% !important;
+    }
+
+    .sec-left-logos {
+        padding: 0px !important;
+    }
+
+    .pat-slider-head h1 {
+        font-size: 40px;
+    }
+
+    .pat-slider-head h1 em {
+        font-size: 40px;
+    }
+
+    .team .pic img {
+        width: 320px;
+    }
+
+    .team-border {
+        margin-right: -7px;
+    }
+
+    .team .name {
+        font-size: 18px;
+    }
+
+    .counter-head h1 {
+        font-size: 45px;
+    }
+
+    .counter-head h1 em {
+        font-size: 45px;
+    }
+
+    .counter-head p {
+        font-size: 18px;
+        padding: 15px 0px;
+    }
+
+    .counter-btn {
+        margin-top: 50px;
+        margin-bottom: 100px;
+    }
+
+    .banner-content {
+        padding-left: 25px;
+        padding-bottom: 25px;
+    }
+
+    .eye img {
+        width: 55px;
+    }
+
+    .banner-content h2 {
+        font-size: 22px;
+    }
+
+    .eye2 {
+        padding: 5px 0px 0px 0px;
+    }
+
+    .banner2-content h2 {
+        font-size: 22px;
+        padding: 10px 0px;
+    }
+
+    .banner2-content button {
+        font-size: 14px;
+        padding: 8px 9px;
+    }
+
+    .banner-content button {
+        font-size: 14px;
+        padding: 8px 9px;
+    }
+
+    .contact-heading h1 {
+        font-size: 50px;
+        padding: 0px;
+    }
+
+    .t-select {
+        width: 100%;
+    }
+
+    .meet-section {
+        margin-top: 150px;
+    }
+
+    /* ================ dr image =================== */
+
+
+    .meet-dr-content {
+        position: relative;
+        width: 100%;
+        padding: 100px;
+        right: 0;
+        left: 0;
+    }
+
+    /* .meet-section {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    } */
+}
+
+@media(max-width:425px) {
+
+    /* ================================================== CARDS ==================================== */
+    .sec-right-card {
+        position: relative;
+    }
+
+    .lg-right-section {
+        display: none;
+    }
+
+    .sm-right-section {
+        display: block;
+    }
+
+    .sm-sec-right-img {
+        background-image: url("../assets/images/img2.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+    }
+
+    .sec-right-card {
+        position: relative;
+    }
+
+
+    .lg-right-section {
+        display: none !important;
+    }
+
+
+
+    /* ================= left================== */
+    .sec-left-card {
+        position: relative;
+    }
+
+    .sm-left-section {
+        display: block !important;
+    }
+
+    .lg-left-section {
+        display: none !important;
+    }
+
+    .sm-sec-left-img {
+        background-image: url("../assets/images/image\ 6.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+    }
+
+    .sec-left-card {
+        position: relative;
+    }
+
+
+
+
+    /* ================================================================================================= */
+
+
+    .container-wrapper {
+        width: 345px;
+    }
+
+    .review-section {
+        display: none;
+    }
+
+    .video-end p {
+        margin: 0px;
+    }
+
+    /*================================== */
+    /* external css: flickity.css */
+
+
+
+    .carousel-cell {
+        width: 100%;
+        height: 200px;
+
+    }
+
+    /* cell number */
+    /* .carousel-cell:before {
+        display: block;
+        text-align: center;
+        content: counter(carousel-cell);
+        line-height: 200px;
+        font-size: 80px;
+        color: white;
+    } */
+    .flickity-prev-next-button.next {
+        display: none;
+    }
+
+    .flickity-prev-next-button.previous {
+        display: none;
+    }
+
+    /* =================================== */
+    .video-content h2 {
+        font-size: 38px;
+    }
+
+    .video-content h2 em {
+        font-size: 38px;
+    }
+
+    .meet-dr-content {
+        padding: 20px 0px;
+    }
+
+    .why-section {
+        height: 25.5vh;
+    }
+
+    .why-content h2 {
+        font-size: 38px;
+    }
+
+    .why-content h2 em {
+        font-size: 38px;
+    }
+
+    .position-relative1 video {
+        height: 250px;
+    }
+
+    .meet-dr-content {
+        padding-left: 15px;
+    }
+
+    .why-content {
+        padding: 50px 15px;
+    }
+
+    .banner-content h2 {
+        font-size: 16px;
+        width: 100%;
+    }
+
+    .banner2-content {
+        width: 100%;
+    }
+
+    .counter-head p {
+        text-align: center;
+    }
+
+    .team-border {
+        margin: 0px 14px;
+    }
+
+    .owl-dots {
+        margin: 0px;
+    }
+
+    .sec-right-img img {
+        height: 100vh;
+    }
+
+    .sec-right-card {
+        height: 100vh;
+        top: 0;
+        left: 0;
+        width: 100%;
+    }
+
+    .sec-right-btn {
+        margin-top: 50px;
+    }
+
+    .sec-right-card h6 {
+        padding: 30px 0px;
+    }
+
+    .sec-left-img img {
+        height: 100vh;
+    }
+
+    .sec-left-card {
+        height: 100vh;
+        top: 0;
+        right: 0;
+        width: 100%;
+    }
+
+    .sec-left-btn {
+        margin-top: 50px;
+    }
+
+    .sec-left-card h6 {
+        padding: 20px 0px;
+    }
+
+    .sec-left-card h6 {
+        font-size: 16px;
+    }
+
+    .sec-left-card h6 em {
+        font-size: 16px;
+        line-height: 25px;
+    }
+
+    .sec-left-btn {
+        margin-top: 25px;
+    }
+
+    .sec-left-logos {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .footer-svg {
+        margin: 4px;
+    }
+
+    .footer-cont h4 {
+        font-size: 18px;
+    }
+
+    .play-btn img {
+        width: 69px;
+    }
+
+    .ad-logo {
+        top: 10px;
+        left: 28%;
+    }
+
+    .ad-logo img {
+        width: 180px;
+    }
+
+    .vid-container {
+        margin-top: 50px;
+    }
+
+    .hero-section {
+        background-size: cover;
+        height: 55vh;
+    }
+
+    .meet-section {
+        margin-top: 100px;
+    }
+
+    .why-content {
+        margin-top: -5px;
+    }
+
+    .ad-vid-content {
+        text-align: center;
+    }
+
+    .contact-btn button {
+        width: 100%;
+        padding: 8px 70px;
+    }
+
+    .contact-btn {
+        padding-top: 35px;
+    }
+
+    .section-left {
+        margin-top: 100px;
+    }
+
+    footer {
+        padding: 80px 20px;
+    }
+
+    .navbar-brand img {
+        width: 180px;
+    }
+
+    .banner-section {
+        width: 100%;
+    }
+
+    .banner2-section {
+        width: 100%;
+    }
+
+    .banner-content {
+        padding-left: 15px;
+    }
+
+    .ad-vid-content {
+
+        margin: -32px -1px;
+    }
+
+    .position-relative1 video {
+        height: 226px;
+    }
+
+    .ad-vid-content {
+        width: 100%;
+    }
+
+    .percent {
+        font-size: 38px;
+        padding: 0px 26px;
+    }
+
+    .counter-text p {
+        padding: 0px 10px;
+        font-size: 16px;
+    }
+}
+
+/* ========================= 375 ========================= */
+@media(max-width:375px) {
+    .position-relative1 video {
+        height: 200px;
+    }
+
+    .team .pic img {
+        width: 270px;
+    }
+
+    .navbar-brand img {
+        width: 150px;
+    }
+
+
+
+    .why-section {
+        height: 22.5vh;
+    }
+
+    .meet-dr-content h2 {
+        font-size: 35px;
+    }
+
+    .meet-dr-content h2 em {
+        font-size: 35px;
+    }
+
+    .meet-section {
+        margin-top: 100px;
+    }
+
+    .ad-logo {
+        top: 105px;
+        left: 24%;
+    }
+
+    .sec-left-card {
+        padding: 45px;
+    }
+
+    .footer-svg {
+        width: 35px;
+    }
+
+    .footer-cont p {
+        line-height: 28px;
+    }
+
+    .footer-cont h4 {
+        font-size: 14px;
+    }
+
+    .container-wrapper {
+        width: 290px;
+    }
+
+    .sec-right-card {
+        padding: 40px;
+    }
+
+    .sec-left-btn {
+        padding: 5px 26px;
+    }
+
+    .sec-right-btn {
+        padding: 5px 26px;
+    }
+
+    .section-left {
+        margin-top: 325px;
+    }
+
+    .ad-vid-bg {
+        display: none;
+    }
+
+    .ad-logo {
+        top: 10px;
+    }
+
+    .percent {
+        font-size: 28px;
+        padding: 0px 14px;
+    }
+
+    .counter-text p {
+        padding: 0px 7px;
+        font-size: 14px;
+    }
+}
+
+@media(max-width:320px) {
+    .sec-left-card {
+        padding: 22px;
+    }
+
+    .counter-text p {
+        padding: 0px 7px;
+        font-size: 14px;
+    }
+
+    .ad-video {
+        margin: 0px;
+    }
+
+    .ad-vid-content {
+        margin: 0px;
+    }
+
+    .sec-right-card {
+        padding: 22px;
+    }
+
+    .video-content h2 {
+        font-size: 28px;
+    }
+
+    .video-content h2 em {
+        font-size: 28px;
+    }
+
+    .meet-section {
+        margin-top: 30px;
+    }
+
+    .why-section {
+        height: 19.5vh;
+    }
+
+    .pat-slider-head {
+        margin-top: 100px;
+    }
+
+    .pat-slider-head h1 {
+        font-size: 28px;
+    }
+
+    .pat-slider-head h1 em {
+        font-size: 28px;
+    }
+
+    .team .pic img {
+        width: 235px;
+    }
+
+    .team-border {
+        margin: 0px;
+        padding: 0px;
+        padding-top: 5px;
+        height: auto;
+    }
+
+    .counter-head h1 {
+        font-size: 35px;
+    }
+
+    .counter-head h1 em {
+        font-size: 35px;
+    }
+
+    .counter-head p {
+        font-size: 16px;
+    }
+
+    .counter-btn button {
+        padding: 8px 75px;
+    }
+
+    .fv-heading h2 {
+        font-size: 40px;
+    }
+
+    .footer-cont h4 {
+        text-align: center;
+        line-height: 26px;
+        padding: 10px;
+    }
+
+    .video-content h4 {
+        font-size: 20px;
+    }
+
+    .meet-dr-content h2 {
+        font-size: 28px;
+    }
+
+    .meet-dr-content h2 em {
+        font-size: 28px;
+    }
+
+    .why-btn {
+        padding: 8px 56px;
+    }
+
+    .sec-right-btn {
+        padding: 5px 20px;
+    }
+
+    .sec-left-btn {
+        padding: 5px 20px;
+    }
+
+    .ad-vid-bg {
+        display: none;
+    }
+
+    .ad-vid-content h4 {
+        margin-bottom: 30px !important;
+    }
+
+    .ad-video {
+        margin: 50px 0px;
+    }
+
+    .section-left {
+        margin-top: 280px !important;
+    }
+
+    .ad-logo {
+        top: 60px;
+        left: 20%;
+    }
+
+    .team-border {
+        margin: 0px 8px;
+    }
+
+    .position-relative1 video {
+        height: 165px;
+    }
+
+
+
+}
